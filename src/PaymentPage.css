@@ -1,0 +1,87 @@
+.imageBackGround{
+    height: 90vh;
+    width: 100vw;
+}
+
+.outerDiv{
+    background-image: url("./Resources/images/pattern-background-desktop.svg");
+    height: 90vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    height: 480px;
+    width: 320px;
+    margin-top: 58px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardImage{
+    width: inherit;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    height: 35%;
+}
+
+.orderSummary{
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.orderDetails{
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    color: darkgray;
+}
+
+.planCharge{
+    display: flex;
+    justify-content: space-evenly;
+    height: 14%;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    width: 80%;
+    align-self: center;
+}
+
+.paymentButtonDiv{
+    width: 80%;
+    background-color: hsl(245, 75%, 52%);
+    height: 8%;
+    border-radius: 10px;
+    border: 0;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 24%);
+}
+.paymentButton{
+    padding: 5px;
+    font-family: 'Red Hat Display';
+    color: beige;
+}
+
+.cancelButton{
+    font-family: 'Red Hat Display';
+    color: #6a6161;
+}
+
+.changeButton{
+    font-family: 'Red Hat Display';
+    color:hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 600;
+    background-color: Transparent;
+    /* background-repeat:no-repeat; */
+    border: none;
+}
