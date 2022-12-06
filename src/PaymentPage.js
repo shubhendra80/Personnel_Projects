@@ -25,8 +25,8 @@ class PaymentPage extends Component {
       <div className='planCharge'>
         <div><img src={cardMusic} alt='card' style={{}} /></div>
         <div style={{display: 'flex', flexDirection: 'column'}}>
-            <div>Annual Plan</div>
-            <div>$59.99/year</div>
+            <div style={{fontFamily: 'Red Hat Display'}}>Annual Plan</div>
+            <div style={{fontFamily: 'Red Hat Display'}}>$59.99/year</div>
         </div>
         <div>
             <button className='changeButton'>Change</button>

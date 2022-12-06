@@ -1,10 +1,10 @@
 import './App.css';
-import PaymentPage from './PaymentPage';
+import NewsHomenGrid from './NewsHomenGrid';
 
 function App() {
   return (
     <div className="App">
-      <PaymentPage />
+      <NewsHomenGrid />
     </div>
   );
 }
